@@ -1,0 +1,30 @@
+{
+  "db_params": {
+    "host": "localhost",
+    "user": "root",
+    "password": "root",
+    "database": "mydb"
+  },
+  "jobs": [
+    "Technicien d'Etudes",
+    "Responsable BE",
+    "Conducteur de Travaux",
+    "Chef de Chantier",
+    "Chef d'Equipe",
+    "Monteur",
+    "Responsable d'Affaires",
+    "Responsable d'Activité"
+  ],
+  "archiving_time": 10,
+  "plans_status": [
+    "BPE",
+    "BPO",
+    "CAE",
+    "PÉRIMÉ",
+    "INFO",
+    "APD",
+    "V1",
+    "V2",
+    "ANNULÉ"
+  ],
+}
