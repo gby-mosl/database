@@ -7,7 +7,7 @@
   },
   "jobs": [
     "Technicien d'Etudes",
-    "Responsable BE",
+    "Responsable Bureau d'Etudes",
     "Conducteur de Travaux",
     "Chef de Chantier",
     "Chef d'Equipe",
@@ -26,5 +26,5 @@
     "V1",
     "V2",
     "ANNULÉ"
-  ],
+  ]
 }

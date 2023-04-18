@@ -1,9 +1,10 @@
 import json
+from pathlib import Path
 
 # TODO: Gestion des erreurs
 
-
-SETTINGS_FILE = "/Users/guillaume/Code/database/settings.json"
+CURRENT_FILE = Path(__file__)
+SETTINGS_FILE = CURRENT_FILE.parent / "settings.json"
 
 
 def getConfig(params: str) -> dict:
