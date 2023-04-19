@@ -23,8 +23,8 @@ class Plan:
         return True
 
     def addVersion(self, version: str, creation_date: datetime.date, modification: str, technician_id: int,
-                      status: str = None):
-        request = "INSERT INTO version (version, plan_id, creation_date, modification, technician_id, status) VALUES (%s, %s, %s, %s, %s, %s)"
+                      status: str = None) -> bool:
+        request = "INSERT INTO versions (version, plan_id, creation_date, modification, technician_id, status) VALUES (%s, %s, %s, %s, %s, %s)"
         params = (version, self.id, creation_date, modification, technician_id, status)
         insertInDatabase(request=request, params=params)
         return True
